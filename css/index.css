@@ -176,6 +176,13 @@ body {
   border-radius: 3px;
   font-weight: 500;
 }
+.container .about .contact {
+  display: flex;
+}
+.container .about .contact a {
+  border-radius: 50%;
+  margin-right: 0.5em;
+}
 .container .skills {
   display: flex;
   padding: 4% 0;
@@ -230,6 +237,9 @@ body {
   background: #DCDCDC;
 }
 .container footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background: grey;
   text-align: center;
   padding: 3% 0;
@@ -237,4 +247,17 @@ body {
 .container footer h1 {
   font-size: 1.2em;
   color: #fff;
+}
+.container footer .contact {
+  display: flex;
+}
+.container footer .contact a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background: #666;
+  padding: 7px 10px;
+  border-radius: 50%;
+  font-weight: 500;
+  margin: 1em 0.5em;
 }
