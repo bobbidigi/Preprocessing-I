@@ -300,3 +300,53 @@ body {
   background: #fff;
   color: #666;
 }
+@media (max-width: 500px) {
+  html,
+  body {
+    background: #DCDCDC;
+    font-size: 14px;
+  }
+  html .container nav,
+  body .container nav {
+    background: #fff;
+    justify-content: space-around;
+  }
+  html .container .about,
+  body .container .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  html .container .about img,
+  body .container .about img {
+    max-width: 50%;
+  }
+  html .container .about .about-statement,
+  body .container .about .about-statement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  html .container .about .contact,
+  body .container .about .contact {
+    margin-top: 2em;
+  }
+  html .container .skills,
+  body .container .skills {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2em;
+  }
+  html .container .skills .skills-left,
+  body .container .skills .skills-left,
+  html .container .skills .skills-right,
+  body .container .skills .skills-right {
+    margin-bottom: 2em;
+    width: 100%;
+  }
+  html .container .work,
+  body .container .work {
+    padding: 0 2em;
+  }
+}
